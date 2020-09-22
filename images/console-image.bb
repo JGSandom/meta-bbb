@@ -1,7 +1,7 @@
 SUMMARY = "A console development image"
 HOMEPAGE = "http://www.jumpnowtek.com"
 
-require images/basic-dev-image.bb
+require basic-dev-image.bb
 
 WIFI = " \
     bbgw-wireless \

@@ -1,7 +1,7 @@
 SUMMARY = "A console development image for the pocketbeagle"
 HOMEPAGE = "http://www.jumpnowtek.com"
 
-require images/basic-dev-image.bb
+require basic-dev-image.bb
 
 IMAGE_INSTALL += " \
     serialecho \
